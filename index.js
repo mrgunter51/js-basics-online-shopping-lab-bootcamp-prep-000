@@ -42,7 +42,7 @@ function total() {
   let itemName = Object.keys(getCart()[i])[0];
   let itemPrice = getCart()[i][itemName];
   for(let i = 0;i < cart.length;i++){
-    num += cart[i]
+    num += itemPrice
   }
   return num
 }
