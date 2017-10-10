@@ -26,7 +26,7 @@ function viewCart() {
       let itemName = Object.keys(getCart()[i])[0];
       let itemPrice = getCart()[i][itemName];
       str = str + `${itemName} at $${itemPrice}`
-      if(i !== cart.length-1){
+      if(i !== cart.length-1 && cart.length > 2){
         str += ", "
       }
       else{
