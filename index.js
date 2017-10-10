@@ -22,7 +22,15 @@ function viewCart() {
     console.log("Your shopping cart is empty.")
   }
   else{
-
+    for(let i = 0;i < cart.length;i++){
+      str = str + `${cart[i]} at ${cart[i]}`
+      if(i !== cart.length-1){
+        str += ", "
+      }
+      else{
+        str += '.'
+      }
+    }
   }
 }
 
