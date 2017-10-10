@@ -74,4 +74,5 @@ function placeOrder(cardNumber) {
   }
 }
 
-placeOrder(1234)
+addToCart("vanilla")
+viewCart()
