@@ -78,4 +78,5 @@ function placeOrder(cardNumber) {
 }
 
 addToCart("vanilla")
+addToCart("pears")
 viewCart()
