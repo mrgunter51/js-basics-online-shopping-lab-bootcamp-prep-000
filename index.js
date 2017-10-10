@@ -23,7 +23,7 @@ function viewCart() {
   }
   else{
     for(let i = 0;i < cart.length;i++){
-      str = str + `${cart[i][0]} at ${cart[i][0][cart[i][0]]}`
+      str = str + `${cart[i][0]} at ${cart[i][0]}`
       if(i !== cart.length-1){
         str += ", "
       }
