@@ -29,8 +29,10 @@ function viewCart() {
       if(i !== cart.length-1 && cart.length > 2){
         str += ","
       }
-      str += " "
-      if(i === cart.length-1){
+      if(i !== cart.length-1){
+        str += ' '
+      }
+      else{
         str += '.'
       }
       if(i === cart.length-2){
