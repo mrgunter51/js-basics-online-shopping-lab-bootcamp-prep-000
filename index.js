@@ -26,14 +26,14 @@ function viewCart() {
       let itemName = Object.keys(getCart()[i])[0];
       let itemPrice = getCart()[i][itemName];
       str = str + `${itemName} at $${itemPrice}`
-      if(i === cart.length-2){
-        str += " and "
-      }
       if(i !== cart.length-1){
         str += ", "
       }
       else{
         str += '.'
+      }
+      if(i === cart.length-2){
+        str += " and "
       }
     }
     console.log(str)
