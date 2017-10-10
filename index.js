@@ -23,7 +23,9 @@ function viewCart() {
   }
   else{
     for(let i = 0;i < cart.length;i++){
-      str = str + `${getCart()[i][0]} at ${getCart()[i][0]}`
+      let itemName = Object.keys(getCart()[i])[0];
+      let itemPrice = getCart()[i][itemName];
+      str = str + `${itemName} at ${itemPrice}`
       if(i !== cart.length-1){
         str += ", "
       }
