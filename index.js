@@ -73,3 +73,5 @@ function placeOrder(cardNumber) {
     cart.pop()
   }
 }
+
+placeOrder(1234)
