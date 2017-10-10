@@ -27,8 +27,9 @@ function viewCart() {
       let itemPrice = getCart()[i][itemName];
       str = str + `${itemName} at $${itemPrice}`
       if(i !== cart.length-1 && cart.length > 2){
-        str += ", "
+        str += ","
       }
+      str += " "
       if(i === cart.length-1){
         str += '.'
       }
