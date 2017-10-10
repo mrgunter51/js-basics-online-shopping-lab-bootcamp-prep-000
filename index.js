@@ -31,6 +31,7 @@ function viewCart() {
         str += '.'
       }
     }
+    console.log(str)
   }
 }
 
