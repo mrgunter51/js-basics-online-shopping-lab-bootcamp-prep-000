@@ -35,12 +35,13 @@ function viewCart() {
   }
 }
 
-function total() {
-  var num = 0
-  for(let i = 0;i < cart.length;i++){
-    num += cart[i]
-  }
-}
+// function total() {
+//   var num = 0
+//   for(let i = 0;i < cart.length;i++){
+//     num += cart[i]
+//   }
+//   return num
+// }
 
 function removeFromCart(item) {
   // write your code here
@@ -49,3 +50,6 @@ function removeFromCart(item) {
 function placeOrder(cardNumber) {
   // write your code here
 }
+
+addToCart("lemons")
+viewCart()
