@@ -77,8 +77,3 @@ function placeOrder(cardNumber) {
     cart.pop()
   }
 }
-
-addToCart("vanilla")
-addToCart("pears")
-addToCart("peaches")
-viewCart()
