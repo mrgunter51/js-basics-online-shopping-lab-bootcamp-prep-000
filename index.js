@@ -10,7 +10,7 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- var obj = {[item]: }
+ var obj = {[item]: Math.floor(Math.random() * 100) + 1}
 }
 
 function viewCart() {
@@ -27,10 +27,4 @@ function removeFromCart(item) {
 
 function placeOrder(cardNumber) {
   // write your code here
-}
-
-function getRandomInt(min, max) {
-  min = Math.ceil(min);
-  max = Math.floor(max);
-  return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
 }
