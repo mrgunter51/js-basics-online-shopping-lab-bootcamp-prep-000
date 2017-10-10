@@ -33,7 +33,7 @@ function viewCart() {
         str += '.'
       }
       if(i === cart.length-2){
-        str += " and "
+        str += "and "
       }
     }
     console.log(str)
